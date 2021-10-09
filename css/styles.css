@@ -1,0 +1,163 @@
+
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  /* font-family: "Montserrat"; */
+  text-align: left;
+  padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: 'Nanum Myeongjo', serif; */
+  font-family: "Montserrat-Bold";
+}
+
+h3 {
+  font-weight: bold;
+  padding: 1rem 0rem 0rem 0rem;
+
+}
+a {
+  color: inherit;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Nanum Myeongjo', serif;
+  /* font-family: "Montserrat-Black"; */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 7%;
+}
+
+/* Sections */
+
+.dark-section {
+  background-color: #a63f4f;
+  color: #ffffff;
+}
+
+.light-section {
+  background-color: #ffffff;
+  /* background-image: url("../images/geometry-img.jpg"); */
+  /* color: #000000; */
+  color: #a63f4f;
+}
+
+
+.background-section {
+  background-image: url("../images/geometry-img.jpg");
+  color: #a63f4f;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1% 7%;
+  margin-bottom: 1rem ;
+}
+
+.navbar-custom {
+    color: #ffffff;
+    background-color: #a63f4f;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #ffffff;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Nanum Myeongjo', serif;
+/* font-family: "Montserrat-Light"; */
+  color: #ffffff;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.flag-image {
+  height: 20px;
+}
+/* Title Section */
+
+#title {
+  /* background-color: #a63f4f;
+  color: #ffffff; */
+  background-image: url("../images/geometry-img.jpg");
+  color: #a63f4f;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 7% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Location Section */
+
+#location {
+  position: relative;
+}
+
+#location .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.location-title {
+  font-size: 1.5rem;
+}
+
+.location-image {
+  positon:absolute;
+  top:0;
+  bottom:0;
+}
+
+.icon {
+  color: #a63f4f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #d1909a;
+}
+
+.icon-white {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+
+.info-box{
+  text-align: left;
+  padding-top: 2rem;
+}
