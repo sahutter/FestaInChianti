@@ -6,11 +6,15 @@ body {
   padding-top: 70px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   /* font-family: 'Nanum Myeongjo', serif; */
   font-family: "Montserrat-Bold";
 }
 
+h1 {
+  font-family: 'Nanum Myeongjo', serif;
+
+}
 
 h2 {
   font-size: 3rem;
